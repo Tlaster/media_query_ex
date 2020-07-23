@@ -48,16 +48,16 @@ class MediaQueryEx extends InheritedWidget {
   bool updateShouldNotify(MediaQueryEx oldWidget) => data != oldWidget.data;
 }
 
-class MeduaQueryExWidget extends StatefulWidget {
+class MediaQueryExWidget extends StatefulWidget {
   final Widget child;
 
-  const MeduaQueryExWidget({Key key, this.child}) : super(key: key);
+  const MediaQueryExWidget({Key key, this.child}) : super(key: key);
 
   @override
-  _MeduaQueryExWidgetState createState() => _MeduaQueryExWidgetState();
+  _MediaQueryExWidgetState createState() => _MediaQueryExWidgetState();
 }
 
-class _MeduaQueryExWidgetState extends State<MeduaQueryExWidget> {
+class _MediaQueryExWidgetState extends State<MediaQueryExWidget> {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
